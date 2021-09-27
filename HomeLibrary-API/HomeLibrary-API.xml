@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HomeLibrary-API</name>
+    </assembly>
+    <members>
+        <member name="T:HomeLibrary_API.Controllers.AuthorController">
+            <summary>
+            Endpoint to interact with Authors
+            </summary>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.AuthorController.GetAllAuthors">
+            <summary>
+            Get all Authors
+            </summary>
+            <returns>List of Authors</returns>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.AuthorController.GetAuthor(System.Int32)">
+            <summary>
+            Get Author with specified id
+            </summary>
+            <param name="id">Author identification number</param>
+            <returns>Author object</returns>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.AuthorController.CreateAuthor(HomeLibrary_API.DTOs.Author.AuthorCreateDTO)">
+            <summary>
+            Create new Author
+            </summary>
+            <param name="author">Author data</param>
+            <returns>New Author object</returns>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.AuthorController.UpdateAuthor(System.Int32,HomeLibrary_API.DTOs.Author.AuthorUpdateDTO)">
+            <summary>
+            Update existing Author
+            </summary>
+            <param name="id">Author identification number</param>
+            <param name="author">Author new data</param>
+            <returns>None</returns>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.AuthorController.DeleteAuthor(System.Int32)">
+            <summary>
+            Delete existing Author
+            </summary>
+            <param name="id">Author identification number</param>
+            <returns>None</returns>
+        </member>
+        <member name="T:HomeLibrary_API.Controllers.BookController">
+            <summary>
+            Endpoint to interact with Books
+            </summary>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.BookController.GetAllBooks">
+            <summary>
+            Get all Books
+            </summary>
+            <returns>List of Books</returns>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.BookController.GetBook(System.Int32)">
+            <summary>
+            Get Book with specified id
+            </summary>
+            <param name="id">Book identification number</param>
+            <returns>Book object</returns>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.BookController.CreateAuthor(HomeLibrary_API.DTOs.Book.BookCreateDTO)">
+            <summary>
+            Create new Book
+            </summary>
+            <param name="book">Book data</param>
+            <returns>New Book object</returns>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.BookController.UpdateBook(System.Int32,HomeLibrary_API.DTOs.Book.BookUpdateDTO)">
+            <summary>
+            Update existing Book
+            </summary>
+            <param name="id">Book identification number</param>
+            <param name="author">Book new data</param>
+            <returns>None</returns>
+        </member>
+        <member name="M:HomeLibrary_API.Controllers.BookController.DeleteBook(System.Int32)">
+            <summary>
+            Delete existing Book
+            </summary>
+            <param name="id">Book identification number</param>
+            <returns>None</returns>
+        </member>
+    </members>
+</doc>
